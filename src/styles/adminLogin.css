@@ -1,0 +1,61 @@
+.adminlogin{
+    background-image: url("/public/images/libraryAdmin.jpg");
+    background-size:2050px 950px;
+    /* background-size: cover; */
+    height: 950px;
+    background-repeat: no-repeat;
+}
+
+.formcontainer{
+    position: absolute;
+    /* background-image: url("/public/images/book1.jpg"); */
+    background-repeat: no-repeat;
+    background-color: rgba(218, 117, 44, 0.23);
+    border: 1px solid rgb(223, 223, 220);
+    height: 450px;
+    width: 500px;
+    margin: 180px 780px;
+    border-radius: 10px;
+}
+
+.formcontainer h1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'Rye', cursive;
+    font-size: 35px;
+}
+
+input{
+    margin: 10px;
+    outline: none;
+    border:1px solid rgba(231, 67, 67, 0.622);
+    border-radius: 25px;
+    padding: 13px 23px;
+    background-color: rgba(240, 255, 255, 0.576);
+}
+
+button{
+    text-decoration: none;
+    margin: 50px 15px;
+    padding: 12px 17px;
+    border: 2px solid green;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    padding: 15px 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    padding: 19px 40px;
+}
+
+input:hover,input:focus{
+    padding: 10px 33px;
+    font-size: 25px;
+    border: 2px solid rgba(230, 56, 56, 0.662);
+    background-color: rgba(240, 255, 255, 0.61);
+}

@@ -1,0 +1,13 @@
+.userlogin{
+    background-image: url("/public/images/admin.jpg");
+    background-size:2050px 950px;
+    /* background-size: cover; */
+    height: 950px;
+    background-repeat: no-repeat;
+}
+
+.formcontainer{
+    background-color: rgba(240, 255, 255, 0.565);
+}
+
+

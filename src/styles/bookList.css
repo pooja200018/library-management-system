@@ -1,0 +1,52 @@
+.booklist{
+    margin-top: -30px;
+    /* position:static; */
+    background-image: url("https://media.istockphoto.com/id/831651876/photo/bookshelf-in-public-library.jpg?s=612x612&w=0&k=20&c=NlJb0Uh42B1tDR2PqKa9wDp2ENxOPkZ_-6dQmw62KVM=");
+}
+
+.bookh1{
+    color: rgb(29, 33, 33);
+    font-size: 40px;
+}
+
+
+.book{
+    background-color: rgb(221, 219, 219);
+    width: 1500px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 230px;
+    border-radius: 12px;
+    box-shadow: 10px 5px 12px black;
+    /* display: inline-block; */
+}
+
+.bookdisp{
+    display:inline-block;
+    position: absolute;
+    margin:0px -400px ;
+    /* background-color: rgb(226, 45, 45); */
+    text-align: start;
+}
+
+img{
+    position: absolute;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 23px;
+    width: 180px;
+    height: 260px;
+}
+
+.btn11{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 210px;
+}
+
+.readBook{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+

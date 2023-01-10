@@ -1,0 +1,13 @@
+.usersection{
+    background-color:rgb(218, 128, 128);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.userhn{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 20px 30px;
+    background-color:rgb(151, 147, 147);
+}

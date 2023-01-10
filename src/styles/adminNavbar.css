@@ -1,0 +1,36 @@
+.adminnavbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    padding: 10px 0px;
+}
+
+.logo h1{
+    color: rgb(239, 58, 88);
+    font-weight: bolder;
+}
+ .nav li
+{
+    display: inline-block;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.a,.b,.c,.d,.e,.z{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px 7px;
+    border-radius: 10px;
+}
+
+.a:hover,.b:hover,.c:hover,.d:hover,.e:hover,.z:hover{
+    background-color: rgb(51, 225, 51);
+    border: 1px solid white;
+    border-radius: 10px;
+    color: azure;
+}
