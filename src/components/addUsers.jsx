@@ -1,3 +1,5 @@
+import '../styles/addUser.css';
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -29,7 +31,8 @@ const AddUsers = () => {
     
 
     return ( 
-        <div className="addusers">
+        <div className="userdiv">
+            <div className="addusers">
             <h1>Add new User</h1>
             <div className="form" onSubmit={handleSubmit}>
                 <form action="">
@@ -49,6 +52,7 @@ const AddUsers = () => {
                     <button>Add User</button>
                 </form>
             </div>
+        </div>
         </div>
      );
 }
